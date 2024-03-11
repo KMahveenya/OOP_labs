@@ -9,6 +9,7 @@ private:
 public:
 	MonoCloseQuestion();
 
-	bool check(int);
+	bool check(int) override;
+	bool check(std::string) override { return 0; };
+	bool check(std::vector<int>&) override { return 0; };
 };
-

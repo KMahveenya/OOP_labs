@@ -127,19 +127,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Admin.cpp" />
     <ClCompile Include="IQuestion.cpp" />
     <ClCompile Include="MonoCloseQuestion.cpp" />
     <ClCompile Include="MultiCloseQuestion.cpp" />
     <ClCompile Include="OOP_cursework.cpp" />
     <ClCompile Include="OpenQuestion.cpp" />
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="IUser.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Admin.h" />
     <ClInclude Include="IQuestion.h" />
     <ClInclude Include="MonoCloseQuestion.h" />
     <ClInclude Include="MultiCloseQuestion.h" />
     <ClInclude Include="OpenQuestion.h" />
     <ClInclude Include="Test.h" />
+    <ClInclude Include="IUser.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

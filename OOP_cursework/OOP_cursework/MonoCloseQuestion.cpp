@@ -2,7 +2,8 @@
 
 MonoCloseQuestion::MonoCloseQuestion()
 {
-	answer = -1;
+	type = QuestionType::MonoClose;
+	answer = 3;
 }
 
 bool MonoCloseQuestion::check(int answer)
