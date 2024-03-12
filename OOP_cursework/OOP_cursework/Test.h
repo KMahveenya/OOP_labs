@@ -4,13 +4,20 @@
 
 class Test
 {
-public:
+private:
 	std::string testName;
 	int questionCount;
-	IQuestion* questions;
+	
 
 public:
+	std::vector<IQuestion*> questions;
 	Test();
+
 	std::string getName();
+	int getQuestionCount();
+
+	void setName(std::string);
+	void incQuestionCount();
+	void decQuestionCount();
 };
 

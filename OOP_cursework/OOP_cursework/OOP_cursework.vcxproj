@@ -135,6 +135,7 @@
     <ClCompile Include="OpenQuestion.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="IUser.cpp" />
+    <ClCompile Include="TestRepository.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Admin.h" />
@@ -144,6 +145,7 @@
     <ClInclude Include="OpenQuestion.h" />
     <ClInclude Include="Test.h" />
     <ClInclude Include="IUser.h" />
+    <ClInclude Include="TestRepository.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

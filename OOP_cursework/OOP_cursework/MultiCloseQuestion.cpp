@@ -2,8 +2,16 @@
 
 MultiCloseQuestion::MultiCloseQuestion()
 {
-	type = QuestionType::MultiClose;
-	answer = { 6, 1, 3 };
+
+}
+
+MultiCloseQuestion::MultiCloseQuestion(std::string questionText, int price, QuestionType type, std::vector<int>& answer, std::vector<std::string>& variants)
+{
+	this->type = type;
+	this->price = price;
+	this->textQuestion = questionText;
+	this->answer = answer;
+	this->variants = variants;
 }
 
 bool MultiCloseQuestion::check(std::vector<int>& answer)
@@ -18,4 +26,19 @@ bool MultiCloseQuestion::check(std::vector<int>& answer)
 		}
 	}
 	return true;
+}
+
+void MultiCloseQuestion::setAnswer(std::vector<int>& answer)
+{
+	this->answer = answer;
+}
+
+std::vector<std::string>& MultiCloseQuestion::getVariants()
+{
+	return variants;
+}
+
+void MultiCloseQuestion::setVariants(std::vector<std::string>& variants)
+{
+	this->variants = variants;
 }

@@ -1,6 +1,6 @@
 #include "IUser.h"
 
-Test IUser::getTest(std::string testName)
+Test IUser::getTest(std::string testId)
 {
 	return Test();	//realisation
 }
