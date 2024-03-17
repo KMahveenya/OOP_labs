@@ -14,7 +14,13 @@ std::string IQuestion::getQuestionText()
 {
 	return this->textQuestion;
 }
+
 int IQuestion::getPrice()
 {
 	return this->price;
+}
+
+QuestionType IQuestion::getQuestionType()
+{
+	return type;
 }

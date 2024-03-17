@@ -33,5 +33,6 @@ public:
 
 	std::string getQuestionText();
 	int getPrice();
+	QuestionType getQuestionType();
 };
 

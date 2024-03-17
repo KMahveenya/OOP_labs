@@ -6,6 +6,19 @@ Test::Test()
 
 }
 
+Test::Test(std::string testName)
+{
+	this->setName(testName);
+}
+
+Test::~Test()
+{
+	for (std::vector<IQuestion*>::const_iterator iter = questions.begin(); iter != questions.end(); iter++)
+	{
+		delete* iter;
+	}
+}
+
 std::string Test::getName()
 {
 	return this->testName;

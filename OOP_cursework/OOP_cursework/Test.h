@@ -8,10 +8,12 @@ private:
 	std::string testName;
 	int questionCount;
 	
-
 public:
 	std::vector<IQuestion*> questions;
 	Test();
+	Test(std::string);
+
+	~Test();
 
 	std::string getName();
 	int getQuestionCount();

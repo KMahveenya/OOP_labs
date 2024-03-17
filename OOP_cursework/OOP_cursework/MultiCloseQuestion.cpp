@@ -1,4 +1,5 @@
 #include "MultiCloseQuestion.h"
+#include <iostream>
 
 MultiCloseQuestion::MultiCloseQuestion()
 {
@@ -16,6 +17,10 @@ MultiCloseQuestion::MultiCloseQuestion(std::string questionText, int price, Ques
 
 bool MultiCloseQuestion::check(std::vector<int>& answer)
 {
+	if (answer.size() != this->answer.size())
+	{
+		return false;
+	}
 	std::sort(begin(this->answer), end(this->answer));
 	std::sort(begin(answer), end(answer));
 	for (int i = 0; i < answer.size(); i++)

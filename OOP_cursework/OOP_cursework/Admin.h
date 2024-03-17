@@ -32,9 +32,6 @@ public:
 
 	void createTest(std::string);
 
-	void removeTest(std::string);
-
-	void testing(); //delete in release
-
+	void removeTest();
 };
 

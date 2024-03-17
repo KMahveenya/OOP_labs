@@ -1,8 +1,9 @@
 #include "IUser.h"
+#include "TestRepository.h"
 
-Test IUser::getTest(std::string testId)
+void IUser::getTest(std::string testId)
 {
-	return Test();	//realisation
+	TestRepository::getInstance()->setTest(new Test());       //realisation
 }
 
 std::string* IUser::getTestList()

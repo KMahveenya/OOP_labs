@@ -5,7 +5,7 @@
 class IUser
 {
 protected:
-	Test getTest(std::string);
+	void getTest(std::string);
 	std::string* getTestList();
 };
 

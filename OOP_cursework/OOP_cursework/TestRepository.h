@@ -5,18 +5,15 @@ class TestRepository
 {
 private:
 	static TestRepository* testRep;
+	Test* test;
 
 	TestRepository() {}
 	TestRepository(const TestRepository&) = delete;
 	TestRepository& operator=(TestRepository&);
 
 public:
-	Test* test = new Test();
+	static TestRepository* getInstance();
 
-	static TestRepository* getInstance() {
-		if (!testRep)
-			testRep = new TestRepository();
-		return testRep;
-	}
+	Test* getTest();
+	void setTest(Test*);
 };
-

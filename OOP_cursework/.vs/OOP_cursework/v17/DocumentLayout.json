@@ -3,68 +3,112 @@
   "WorkspaceRootPath": "C:\\OOP\\OOP_cursework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\OOP_cursework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\OOP_cursework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\Admin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\Admin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\TestRepository.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\TestRepository.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\OpenQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\OpenQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\MonoCloseQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\MonoCloseQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\MonoCloseQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\MonoCloseQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\MultiCloseQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\MultiCloseQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\MultiCloseQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\MultiCloseQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\OpenQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\OpenQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\IQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\IQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\IQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\IQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\OOP_cursework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\OOP_cursework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\Test.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\Test.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\TestRepository.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\TestRepository.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\StudentStatistic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\StudentStatistic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\StatisticRepository.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\StatisticRepository.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\IUser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\IUser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\IQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\IQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\ConsoleManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\ConsoleManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\ConsoleManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\ConsoleManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\MultiCloseQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\MultiCloseQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\MultiCloseQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\MultiCloseQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\OpenQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\OpenQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\MonoCloseQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\MonoCloseQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\IQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\IQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\TestStatistic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\TestStatistic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\TestRepository.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\TestRepository.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\IUser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\IUser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\StatisticRepository.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\StatisticRepository.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\TestStatistic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\TestStatistic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\StudentStatistic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\StudentStatistic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\MonoCloseQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\MonoCloseQuestion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\Test.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\Test.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|C:\\OOP\\OOP_cursework\\OOP_cursework\\OpenQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A4026C0-FC4E-4D28-8F42-6D7A66D576FD}|OOP_cursework\\OOP_cursework.vcxproj|solutionrelative:OOP_cursework\\OpenQuestion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,46 +126,189 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "ConsoleManager.cpp",
+              "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\ConsoleManager.cpp",
+              "RelativeDocumentMoniker": "OOP_cursework\\ConsoleManager.cpp",
+              "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\ConsoleManager.cpp",
+              "RelativeToolTip": "OOP_cursework\\ConsoleManager.cpp",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwEsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T10:38:32.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConsoleManager.h",
+              "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\ConsoleManager.h",
+              "RelativeDocumentMoniker": "OOP_cursework\\ConsoleManager.h",
+              "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\ConsoleManager.h",
+              "RelativeToolTip": "OOP_cursework\\ConsoleManager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T10:32:27.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Student.cpp",
+              "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\Student.cpp",
+              "RelativeDocumentMoniker": "OOP_cursework\\Student.cpp",
+              "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\Student.cpp",
+              "RelativeToolTip": "OOP_cursework\\Student.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T10:27:43.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.h",
+              "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\Student.h",
+              "RelativeDocumentMoniker": "OOP_cursework\\Student.h",
+              "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\Student.h",
+              "RelativeToolTip": "OOP_cursework\\Student.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T10:20:03.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StatisticRepository.cpp",
+              "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\StatisticRepository.cpp",
+              "RelativeDocumentMoniker": "OOP_cursework\\StatisticRepository.cpp",
+              "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\StatisticRepository.cpp",
+              "RelativeToolTip": "OOP_cursework\\StatisticRepository.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T10:11:28.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StatisticRepository.h",
+              "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\StatisticRepository.h",
+              "RelativeDocumentMoniker": "OOP_cursework\\StatisticRepository.h",
+              "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\StatisticRepository.h",
+              "RelativeToolTip": "OOP_cursework\\StatisticRepository.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-17T10:07:59.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentStatistic.cpp",
+              "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\StudentStatistic.cpp",
+              "RelativeDocumentMoniker": "OOP_cursework\\StudentStatistic.cpp",
+              "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\StudentStatistic.cpp",
+              "RelativeToolTip": "OOP_cursework\\StudentStatistic.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-13T12:14:23.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StudentStatistic.h",
+              "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\StudentStatistic.h",
+              "RelativeDocumentMoniker": "OOP_cursework\\StudentStatistic.h",
+              "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\StudentStatistic.h",
+              "RelativeToolTip": "OOP_cursework\\StudentStatistic.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-13T12:09:34.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TestStatistic.cpp",
+              "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\TestStatistic.cpp",
+              "RelativeDocumentMoniker": "OOP_cursework\\TestStatistic.cpp",
+              "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\TestStatistic.cpp",
+              "RelativeToolTip": "OOP_cursework\\TestStatistic.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-13T12:03:51.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TestStatistic.h",
+              "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\TestStatistic.h",
+              "RelativeDocumentMoniker": "OOP_cursework\\TestStatistic.h",
+              "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\TestStatistic.h",
+              "RelativeToolTip": "OOP_cursework\\TestStatistic.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-13T11:45:51.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestRepository.cpp",
+              "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\TestRepository.cpp",
+              "RelativeDocumentMoniker": "OOP_cursework\\TestRepository.cpp",
+              "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\TestRepository.cpp",
+              "RelativeToolTip": "OOP_cursework\\TestRepository.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-13T11:17:40.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "TestRepository.h",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\TestRepository.h",
               "RelativeDocumentMoniker": "OOP_cursework\\TestRepository.h",
               "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\TestRepository.h",
               "RelativeToolTip": "OOP_cursework\\TestRepository.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-12T19:19:12.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Admin.cpp",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\Admin.cpp",
               "RelativeDocumentMoniker": "OOP_cursework\\Admin.cpp",
               "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\Admin.cpp",
               "RelativeToolTip": "OOP_cursework\\Admin.cpp",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAAAIkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-11T19:19:53.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "Admin.h",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\Admin.h",
               "RelativeDocumentMoniker": "OOP_cursework\\Admin.h",
               "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\Admin.h",
               "RelativeToolTip": "OOP_cursework\\Admin.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-11T19:15:51.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "OpenQuestion.h",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\OpenQuestion.h",
               "RelativeDocumentMoniker": "OOP_cursework\\OpenQuestion.h",
@@ -134,46 +321,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "MultiCloseQuestion.cpp",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\MultiCloseQuestion.cpp",
               "RelativeDocumentMoniker": "OOP_cursework\\MultiCloseQuestion.cpp",
               "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\MultiCloseQuestion.cpp",
               "RelativeToolTip": "OOP_cursework\\MultiCloseQuestion.cpp",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACgAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-06T16:08:59.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "MultiCloseQuestion.h",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\MultiCloseQuestion.h",
               "RelativeDocumentMoniker": "OOP_cursework\\MultiCloseQuestion.h",
               "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\MultiCloseQuestion.h",
               "RelativeToolTip": "OOP_cursework\\MultiCloseQuestion.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-06T16:07:35.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "MonoCloseQuestion.cpp",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\MonoCloseQuestion.cpp",
               "RelativeDocumentMoniker": "OOP_cursework\\MonoCloseQuestion.cpp",
               "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\MonoCloseQuestion.cpp",
               "RelativeToolTip": "OOP_cursework\\MonoCloseQuestion.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowCEAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-06T16:06:18.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 24,
               "Title": "MonoCloseQuestion.h",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\MonoCloseQuestion.h",
               "RelativeDocumentMoniker": "OOP_cursework\\MonoCloseQuestion.h",
@@ -186,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 26,
               "Title": "OpenQuestion.cpp",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\OpenQuestion.cpp",
               "RelativeDocumentMoniker": "OOP_cursework\\OpenQuestion.cpp",
@@ -194,98 +381,97 @@
               "RelativeToolTip": "OOP_cursework\\OpenQuestion.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-06T16:10:07.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T16:10:07.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OOP_cursework.cpp",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\OOP_cursework.cpp",
               "RelativeDocumentMoniker": "OOP_cursework\\OOP_cursework.cpp",
               "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\OOP_cursework.cpp",
               "RelativeToolTip": "OOP_cursework\\OOP_cursework.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAVAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-06T15:29:33.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "IUser.cpp",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\IUser.cpp",
               "RelativeDocumentMoniker": "OOP_cursework\\IUser.cpp",
               "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\IUser.cpp",
               "RelativeToolTip": "OOP_cursework\\IUser.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-11T18:52:12.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "Test.cpp",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\Test.cpp",
               "RelativeDocumentMoniker": "OOP_cursework\\Test.cpp",
               "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\Test.cpp",
               "RelativeToolTip": "OOP_cursework\\Test.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-06T15:32:27.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "Test.h",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\Test.h",
               "RelativeDocumentMoniker": "OOP_cursework\\Test.h",
               "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\Test.h",
               "RelativeToolTip": "OOP_cursework\\Test.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-06T15:32:14.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-06T15:32:14.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "IQuestion.cpp",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\IQuestion.cpp",
               "RelativeDocumentMoniker": "OOP_cursework\\IQuestion.cpp",
               "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\IQuestion.cpp",
               "RelativeToolTip": "OOP_cursework\\IQuestion.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-06T15:57:57.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "IQuestion.h",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\IQuestion.h",
               "RelativeDocumentMoniker": "OOP_cursework\\IQuestion.h",
               "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\IQuestion.h",
               "RelativeToolTip": "OOP_cursework\\IQuestion.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-03-06T15:55:24.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "IUser.h",
               "DocumentMoniker": "C:\\OOP\\OOP_cursework\\OOP_cursework\\IUser.h",
               "RelativeDocumentMoniker": "OOP_cursework\\IUser.h",
               "ToolTip": "C:\\OOP\\OOP_cursework\\OOP_cursework\\IUser.h",
               "RelativeToolTip": "OOP_cursework\\IUser.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-11T18:51:50.507Z"
+              "WhenOpened": "2024-03-11T18:51:50.507Z",
+              "EditorCaption": ""
             }
           ]
         }
