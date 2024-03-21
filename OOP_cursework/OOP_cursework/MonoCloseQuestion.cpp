@@ -4,9 +4,10 @@ MonoCloseQuestion::MonoCloseQuestion()
 {
 	type = QuestionType::MonoClose;
 	answer = 3;
+	this->variants;
 }
 
-MonoCloseQuestion::MonoCloseQuestion(std::string questionText, int price, QuestionType type, int answer, std::vector<std::string>& variants)
+MonoCloseQuestion::MonoCloseQuestion(std::string questionText, int price, QuestionType type, int answer, std::vector<std::string> variants)
 {
 	this->type = type;
 	this->price = price;

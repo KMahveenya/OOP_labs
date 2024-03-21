@@ -43,3 +43,13 @@ void Test::setName(std::string name)
 {
 	this->testName = name;
 }
+
+IQuestion* Test::getQuestion(int num)
+{
+	return questions[num];
+}
+
+std::vector<IQuestion*>& Test::getQuestions()
+{
+	return questions;
+}

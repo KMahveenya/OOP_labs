@@ -4,8 +4,10 @@
 
 class IUser
 {
-protected:
+public:
 	void getTest(std::string);
-	std::string* getTestList();
+	std::vector<std::string> getTestList();
+	void getTestStatistic();
+	void logout();
 };
 

@@ -7,9 +7,9 @@ class Test
 private:
 	std::string testName;
 	int questionCount;
-	
-public:
 	std::vector<IQuestion*> questions;
+
+public:
 	Test();
 	Test(std::string);
 
@@ -17,6 +17,8 @@ public:
 
 	std::string getName();
 	int getQuestionCount();
+	IQuestion* getQuestion(int);
+	std::vector<IQuestion*>& getQuestions();
 
 	void setName(std::string);
 	void incQuestionCount();

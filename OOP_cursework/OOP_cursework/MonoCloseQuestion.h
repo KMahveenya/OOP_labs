@@ -10,7 +10,7 @@ private:
 
 public:
 	MonoCloseQuestion();
-	MonoCloseQuestion(std::string, int, QuestionType, int, std::vector<std::string>&);
+	MonoCloseQuestion(std::string, int, QuestionType, int, std::vector<std::string>);
 
 	bool check(int) override;
 	bool check(std::string) override { return 0; };

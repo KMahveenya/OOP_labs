@@ -9,10 +9,10 @@ private:
 
 public:
 	void startTest();
-	/*void getTestStatistic();
+	//void getTestStatistic();
 	void getStudentStatistic();
 
-	void setName(std::string);
+	/*void setName(std::string);
 
 	std::string getName();*/
 
