@@ -1,5 +1,7 @@
 #pragma once
 #include "IUser.h"
+#include <time.h>
+#include <windows.h>
 
 class Student : public IUser
 {
@@ -8,13 +10,9 @@ private:
 	int currPrice;
 
 public:
+	Student(std::string);
+
 	void startTest();
-	//void getTestStatistic();
 	void getStudentStatistic();
-
-	/*void setName(std::string);
-
-	std::string getName();*/
-
 };
 

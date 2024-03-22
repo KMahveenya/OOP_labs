@@ -3,17 +3,51 @@
 #include "StatisticRepository.h"
 #include "ConsoleManager.h"
 
+#include <iostream>
+
 void IUser::getTest(std::string testId)
 {
-	TestRepository::getInstance()->setTest(new Test());       //realisation
+	//realisation
+	
+	/*this->saveTest();
+	for (int i = 0; i < tests.size(); i++)
+	{
+		if (tests[i]->getName() == testId)
+		{
+			TestRepository::getInstance()->setTest(new Test());
+			break;
+		}
+	}*/
+}
 
-
+void IUser::saveTest()
+{
+	//realisation
+	
+	//std::cout << tests.size();
+	/*for (int i = 0; i < tests.size(); i++)
+	{
+		if (tests[i]->getName() == TestRepository::getInstance()->getTest()->getName())
+		{
+			tests[i] = TestRepository::getInstance()->getTest();
+			return;
+		}
+	}*/
+	//tests.push_back(TestRepository::getInstance()->getTest());
 }
 
 std::vector<std::string> IUser::getTestList()
 {
-	std::vector<std::string> testNames { "name1", "name2", "name3" };
-	return testNames;	//realisation
+	//realisation
+
+	std::vector<std::string> testNames{ "name1", "name2", "name3" };
+
+
+	/*for (int i = 0; i < tests.size(); i++)
+	{
+		testNames.push_back(tests[i]->getName());
+	}*/
+	return testNames;
 }
 
 void IUser::logout()

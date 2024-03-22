@@ -28,9 +28,13 @@ enum class UserType
 int main()
 {
     Admin* admin = new Admin();
-	Student* student = new Student();
+	Student* student = new Student("Jhon");
+	TestStatistic* teststat = new TestStatistic();
+	StudentStatistic* studstat = new StudentStatistic();
+	StatisticRepository::getInstance()->setTestStatistic(teststat);
+	StatisticRepository::getInstance()->setStudentStatistic(studstat);
 
-	std::vector<int> v{ 3, 2 };
+	std::vector<int> v{3, 2};
 	std::vector<std::string> vars1{ "2", "3", "4", "5"};
 	std::vector<std::string> vars2{ "Birds", "Animals", "Mushrooms", "Spiders" };
 
@@ -39,19 +43,15 @@ int main()
 	admin->addQuestion("Type of data which store integer numbers?", 100, QuestionType::Open, "int");
 	admin->addQuestion("How many principals of OOP?", 200, QuestionType::MonoClose, 3, vars1);
 	admin->addQuestion("Choose kingdom of living organisms", 300, QuestionType::MultiClose, v, vars2);
-
-	TestStatistic* teststat = new TestStatistic();
+	
 	teststat->setAverageResault(450);
 	teststat->setMinTime(20);
 	teststat->setQuestionCount(3);
-	teststat->setSolvingCount(13);
-	StatisticRepository::getInstance()->setTestStatistic(teststat);
-
-	StudentStatistic* studstat = new StudentStatistic();
-	studstat->setAverageTime(26);
+	teststat->setSolvingCount(7);
+	
+	studstat->setCommonTime(30);
 	studstat->setMaxResault(500);
-	studstat->setSolvingTestsCount(72);
-	StatisticRepository::getInstance()->setStudentStatistic(studstat);
+	studstat->setSolvingTestsCount(5);
 
 	int currUser;
 	do
@@ -125,13 +125,13 @@ int main()
 					if (type == QuestionType::MonoClose)
 					{
 						std::vector<std::string> vars = ConsoleManager::getInstance()->writeVariantsAsk();
-						int ans = ConsoleManager::getInstance()->writeMonoAnswerAsk();
+						int ans = ConsoleManager::getInstance()->writeMonoAnswerAsk(vars.size());
 						admin->addQuestion(questionText, price, type, ans, vars);
 					}
 					else if (type == QuestionType::MultiClose)
 					{
 						std::vector<std::string> vars = ConsoleManager::getInstance()->writeVariantsAsk();
-						std::vector<int> anses = ConsoleManager::getInstance()->writeMultiAnswerAsk();
+						std::vector<int> anses = ConsoleManager::getInstance()->writeMultiAnswerAsk(vars.size());
 						admin->addQuestion(questionText, price, type, anses, vars);
 					}
 					else if (type == QuestionType::Open)
@@ -143,7 +143,7 @@ int main()
 				else if (variant == 6)
 				{
 					int intChangeType = ConsoleManager::getInstance()->writeChangeAsk();
-					int questionNumber = ConsoleManager::getInstance()->writeQuestionNumber() - 1;
+					int questionNumber = ConsoleManager::getInstance()->writeQuestionNumber(TestRepository::getInstance()->getTest()->getQuestionCount()) - 1;
 					if (intChangeType == 1)
 					{
 						std::string newQuestionText = ConsoleManager::getInstance()->writeQuestionTextAsk();
@@ -164,19 +164,20 @@ int main()
 								std::vector<std::string> vars = ConsoleManager::getInstance()->writeVariantsAsk();
 								admin->changeQuestion(questionNumber, ChangeType::Variants, vars);
 							}
-							int newAns = ConsoleManager::getInstance()->getMonoCloseAnswer();
+							int newAns = ConsoleManager::getInstance()->getMonoCloseAnswer(TestRepository::getInstance()->getTest()->getQuestion(questionNumber)->getVariants().size());
 							admin->changeQuestion(questionNumber, ChangeType::Answer, newAns);
 						}
 						else if(intQType == 2)
 						{
 							qType = QuestionType::MultiClose;
 							admin->changeQuestion(questionNumber, ChangeType::QuestionType, qType);
+
 							if (currQType == QuestionType::Open)
 							{
 								std::vector<std::string> vars = ConsoleManager::getInstance()->writeVariantsAsk();
 								admin->changeQuestion(questionNumber, ChangeType::Variants, vars);
 							}
-							std::vector<int> newAns = ConsoleManager::getInstance()->getMultiCloseAnswer();
+							std::vector<int> newAns = ConsoleManager::getInstance()->getMultiCloseAnswer(TestRepository::getInstance()->getTest()->getQuestion(questionNumber)->getVariants().size());
 							admin->changeQuestion(questionNumber, ChangeType::Answer, newAns);
 						}
 						else if (intQType == 3)
@@ -197,12 +198,12 @@ int main()
 						QuestionType qType = TestRepository::getInstance()->getTest()->getQuestion(questionNumber)->getQuestionType();
 						if (qType == QuestionType::MonoClose)
 						{
-							int newAns = ConsoleManager::getInstance()->getMonoCloseAnswer();
+							int newAns = ConsoleManager::getInstance()->getMonoCloseAnswer(TestRepository::getInstance()->getTest()->getQuestion(questionNumber)->getVariants().size());
 							admin->changeQuestion(questionNumber, ChangeType::Answer, newAns);
 						}
 						else if (qType == QuestionType::MultiClose)
 						{
-							std::vector<int> newAns = ConsoleManager::getInstance()->getMultiCloseAnswer();
+							std::vector<int> newAns = ConsoleManager::getInstance()->getMultiCloseAnswer(TestRepository::getInstance()->getTest()->getQuestion(questionNumber)->getVariants().size());
 							admin->changeQuestion(questionNumber, ChangeType::Answer, newAns);
 						}
 						else if (qType == QuestionType::Open)
@@ -218,14 +219,14 @@ int main()
 						{
 							std::vector<std::string> vars = ConsoleManager::getInstance()->writeVariantsAsk();
 							admin->changeQuestion(questionNumber, ChangeType::Variants, vars);
-							int newAns = ConsoleManager::getInstance()->getMonoCloseAnswer();
+							int newAns = ConsoleManager::getInstance()->getMonoCloseAnswer(TestRepository::getInstance()->getTest()->getQuestion(questionNumber)->getVariants().size());
 							admin->changeQuestion(questionNumber, ChangeType::Answer, newAns);
 						}
 						else if (currQType == QuestionType::MultiClose)
 						{
 							std::vector<std::string> vars = ConsoleManager::getInstance()->writeVariantsAsk();
 							admin->changeQuestion(questionNumber, ChangeType::Variants, vars);
-							std::vector<int> newAns = ConsoleManager::getInstance()->getMultiCloseAnswer();
+							std::vector<int> newAns = ConsoleManager::getInstance()->getMultiCloseAnswer(vars.size());
 							admin->changeQuestion(questionNumber, ChangeType::Answer, newAns);
 						}
 						else if(currQType == QuestionType::Open)
@@ -236,7 +237,7 @@ int main()
 				}
 				else if (variant == 7)
 				{
-					admin->removeQuestion(ConsoleManager::getInstance()->writeQuestionNumber() - 1);
+					admin->removeQuestion(ConsoleManager::getInstance()->writeQuestionNumber(TestRepository::getInstance()->getTest()->getQuestionCount()) - 1);
 				}
 				else if (variant == 8)
 				{

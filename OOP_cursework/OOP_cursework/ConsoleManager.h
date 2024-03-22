@@ -14,8 +14,8 @@ private:
 public:
 	static ConsoleManager* getInstance();
 
-	int getMonoCloseAnswer();
-	std::vector<int> getMultiCloseAnswer();
+	int getMonoCloseAnswer(int);
+	std::vector<int> getMultiCloseAnswer(int);
 	std::string getOpenAnswer();
 
 	void writeTestStatistic(std::string, int, int, int, int);
@@ -32,11 +32,11 @@ public:
 	std::string writeNameAsk();
 	int writePriceAsk();
 	int writeQuestionTypeAsk();
-	int writeMonoAnswerAsk();
-	std::vector<int> writeMultiAnswerAsk();
+	int writeMonoAnswerAsk(int);
+	std::vector<int> writeMultiAnswerAsk(int);
 	std::string writeOpenAnswerAsk();
 	std::vector<std::string> writeVariantsAsk();
-	int writeQuestionNumber();
+	int writeQuestionNumber(int);
 
 	int writeStartMenu();
 	int writeStudentMenu();
@@ -44,5 +44,7 @@ public:
 	int writeChangeAsk();
 
 	void correct(bool);
+
+	int inputInt(const char*, int, int);
 };
 

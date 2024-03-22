@@ -25,42 +25,29 @@ ConsoleManager* ConsoleManager::getInstance()
 	return console;
 }
 
-int ConsoleManager::getMonoCloseAnswer()
+int ConsoleManager::getMonoCloseAnswer(int count)
 {
-	int ans = 0;
 	std::cout << "\nYour answer: \n";
-	std::string str;
-	std::getline(std::cin, str);
-	for (int i = 0; i < str.length(); i++)
-	{
-		if (str[i] > '0' && str[i] < '9')
-		{
-			ans = ans * 10 + str[i] - 48;
-		}
-	}
+	const char* num = new char[100];
+	int ans = this->inputInt(num, 1, count);
 	return ans;
 }
 
-std::vector<int> ConsoleManager::getMultiCloseAnswer()
+std::vector<int> ConsoleManager::getMultiCloseAnswer(int count)
 {
 	std::vector<int> ans;
-	std::string str;
+	//std::string str;
+	std::cout << "\nHow many variants you want to answer: \n";
+	const char* num = new char[100];
+	int a = this->inputInt(num, 1, count);
 	std::cout << "\nYour answer: \n";
-	std::getline(std::cin, str);
-	int a = 0;
-	for (int i = 0; i < str.length(); i++)
+	//std::getline(std::cin, str);
+	for (int i = 0; i < a; i++)
 	{
-		if (str[i] != ' ')
-		{
-			a = a * 10 + (str[i] - 48);
-		}
-		else
-		{
-			ans.push_back(a);
-			a = 0;
-		}
+		const char* num = new char[100];
+		int oneans = this->inputInt(num, 1, count);
+		ans.push_back(oneans);
 	}
-	ans.push_back(a);
 	return ans;
 }
 
@@ -114,7 +101,7 @@ void ConsoleManager::writeStudentStatistic(std::string name, int solvCount, int 
 	std::cout << "User name: " << name;
 	std::cout << "\nCount of solving tests: " << solvCount;
 	std::cout << "\nMaximum resault of user: " << maxRes;
-	std::cout << "\nAverage time of solvings: " << averTime;
+	std::cout << "\nCommon time of solvings: " << averTime;
 	std::cout << "\n---------------------------------------------------------------------\n\n";
 }
 
@@ -127,10 +114,10 @@ int ConsoleManager::writeStudentMenu()
 	std::cout << "4. Check student statistic\n";
 	std::cout << "5. Logout\n";
 	std::cout << "\nYou choose: ";
-	int a;
-	std::string str;
-	std::cin >> a;
-	std::getline(std::cin, str);
+	//std::string str;
+	const char* num = new char[100];
+	int a = this->inputInt(num, 1, 5);
+	//std::getline(std::cin, str);
 	return a;
 }
 
@@ -147,10 +134,10 @@ int ConsoleManager::writeAdminMenu()
 	std::cout << "8. Check test statistic\n";
 	std::cout << "9. Logout\n";
 	std::cout << "\nYou choose: ";
-	int a;
-	std::string str;
-	std::cin >> a;
-	std::getline(std::cin, str);
+	//std::string str;
+	const char* num = new char[100];
+	int a = this->inputInt(num, 1, 9);
+	//std::getline(std::cin, str);
 	return a;
 }
 
@@ -186,54 +173,47 @@ std::string ConsoleManager::writeQuestionTextAsk()
 
 int ConsoleManager::writePriceAsk()
 {
-	std::cout << "\nEnter cost of question: \n";
-	int num;
-	std::string str;
-	std::cin >> num;
-	std::getline(std::cin, str);
-	return num;
+	std::cout << "\nEnter cost of question (from 1 to 1000): \n";
+	//std::string str;
+	const char* num = new char[100];
+	int a = this->inputInt(num, 1, 1000);
+	//std::getline(std::cin, str);
+	return a;
 }
 
 int ConsoleManager::writeQuestionTypeAsk()
 {
 	std::cout << "\nChoose type of question:\n1. close/1 variant\n2. close/many variants\n3. open\n\nYou choose: \n";
-	int num;
-	std::string str;
-	std::cin >> num;
-	std::getline(std::cin, str);
-	return num;
+	//std::string str;
+	const char* num = new char[100];
+	int a = this->inputInt(num, 1, 3);
+	//std::getline(std::cin, str);
+	return a;
 }
 
-int ConsoleManager::writeMonoAnswerAsk()
+int ConsoleManager::writeMonoAnswerAsk(int count)
 {
 	std::cout << "\nEnter num of correct variant: \n";
-	int num;
-	std::string str;
-	std::cin >> num;
-	std::getline(std::cin, str);
-	return num;
+	//std::string str;
+	const char* num = new char[100];
+	int a = this->inputInt(num, 1, count);
+	//std::getline(std::cin, str);
+	return a;
 }
 
-std::vector<int> ConsoleManager::writeMultiAnswerAsk()
+std::vector<int> ConsoleManager::writeMultiAnswerAsk(int count)
 {
-	std::cout << "\nEnter nums of correct variants: \n";
+	std::cout << "\nHow many correct variants you want to add: \n";
 	std::vector<int> ans;
-	std::string str;
-	std::getline(std::cin, str);
-	int a = 0;
-	for (int i = 0; i < str.length(); i++)
+	const char* num = new char[100];
+	int vars = this->inputInt(num, 1, 100);
+	std::cout << "\nEnter correct variants: \n";
+	for (int i = 0; i < vars; i++)
 	{
-		if (str[i] != ' ')
-		{
-			a = a * 10 + (str[i] - 48);
-		}
-		else
-		{
-			ans.push_back(a);
-			a = 0;
-		}
+		const char* num = new char[100];
+		int a = this->inputInt(num, 1, count);
+		ans.push_back(a);
 	}
-	ans.push_back(a);
 	return ans;
 }
 
@@ -248,10 +228,10 @@ std::string ConsoleManager::writeOpenAnswerAsk()
 std::vector<std::string> ConsoleManager::writeVariantsAsk()
 {
 	std::cout << "\nHow many variants you want to add: \n";
-	int count;
 	std::string str;
-	std::cin >> count;
-	std::getline(std::cin, str);
+	const char* num = new char[100];
+	int count = this->inputInt(num, 1, 100);
+	//std::getline(std::cin, str);
 	std::vector<std::string> vars;
 	std::cout << "\nEnter variants: \n";
 	for (int i = 0; i < count; i++)
@@ -269,29 +249,53 @@ int ConsoleManager::writeStartMenu()
 	std::cout << "2. Enter like admin\n";
 	std::cout << "3. Exit\n";
 	std::cout << "\nYou choose: ";
-	int a;
-	std::string str;
-	std::cin >> a;
-	std::getline(std::cin, str);
+	const char* num = new char[100];
+	int a = this->inputInt(num, 1, 3);
+	//std::string str;
+	//std::getline(std::cin, str);
 	return a;
 }
 
 int ConsoleManager::writeChangeAsk()
 {
 	std::cout << "\nChoose type of choosing:\n1. Text of question\n2. Type of question\n3. Cost of question\n4. Answer of question\n5. Variants of question\n\nYou choose: \n";
-	int num;
-	std::string str;
-	std::cin >> num;
-	std::getline(std::cin, str);
-	return num;
+	//std::string str;
+	const char* num = new char[100];
+	int a = this->inputInt(num, 1, 5);
+	//std::getline(std::cin, str);
+	return a;
 }
 
-int ConsoleManager::writeQuestionNumber()
+int ConsoleManager::writeQuestionNumber(int count)
 {
 	std::cout << "\nEnter number of question: \n";
-	int num;
-	std::string str;
-	std::cin >> num;
-	std::getline(std::cin, str);
-	return num;
+	//std::string str;
+	const char* num = new char[100];
+	int a = this->inputInt(num, 1, count);
+	//std::getline(std::cin, str);
+	return a;
+}
+
+int ConsoleManager::inputInt(const char* prompt, int m = INT_MIN, int M = INT_MAX)
+{
+	int N;
+	for (;;) {
+		std::cout << std::flush;
+		if ((std::cin >> N).good() && (m <= N) && (N <= M))
+		{
+			std::string str;
+			std::getline(std::cin, str);
+			return N;
+		}
+		if (std::cin.fail()) {
+			std::cin.clear();
+			std::cout << "Incorrect input, try again\n";
+		}
+		else {
+			std::cout << "There is no such variant, try again\n";
+		}
+		std::cin.ignore(100, '\n');
+		std::cout << std::flush;
+	}
+	
 }

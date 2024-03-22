@@ -3,6 +3,7 @@
 #include <vector>
 #include "IUser.h"
 #include "IQuestion.h"
+#include "StatisticRepository.h"
 
 enum class ChangeType
 {

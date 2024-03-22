@@ -13,18 +13,24 @@ void Admin::addQuestion(std::string questionText, int price, QuestionType type, 
 {
 	TestRepository::getInstance()->getTest()->getQuestions().push_back(new MonoCloseQuestion(questionText, price, type, answer, variants));
 	TestRepository::getInstance()->getTest()->incQuestionCount();
+
+	StatisticRepository::getInstance()->getTestStatistic()->setQuestionCount(TestRepository::getInstance()->getTest()->getQuestionCount());
 }
 
 void Admin::addQuestion(std::string questionText, int price, QuestionType type, std::vector<int>& answer, std::vector<std::string> variants)
 {
 	TestRepository::getInstance()->getTest()->getQuestions().push_back(new MultiCloseQuestion(questionText, price, type, answer, variants));
 	TestRepository::getInstance()->getTest()->incQuestionCount();
+
+	StatisticRepository::getInstance()->getTestStatistic()->setQuestionCount(TestRepository::getInstance()->getTest()->getQuestionCount());
 }
 
 void Admin::addQuestion(std::string questionText, int price, QuestionType type, std::string answer)
 {
 	TestRepository::getInstance()->getTest()->getQuestions().push_back(new OpenQuestion(questionText, price, type, answer));
 	TestRepository::getInstance()->getTest()->incQuestionCount();
+
+	StatisticRepository::getInstance()->getTestStatistic()->setQuestionCount(TestRepository::getInstance()->getTest()->getQuestionCount());
 }
 
 void Admin::removeQuestion(int questionNumber)
@@ -32,6 +38,8 @@ void Admin::removeQuestion(int questionNumber)
 	auto iter = TestRepository::getInstance()->getTest()->getQuestions().cbegin();
 	TestRepository::getInstance()->getTest()->getQuestions().erase(iter + questionNumber);
 	TestRepository::getInstance()->getTest()->decQuestionCount();
+
+	StatisticRepository::getInstance()->getTestStatistic()->setQuestionCount(TestRepository::getInstance()->getTest()->getQuestionCount());
 }
 
 void Admin::changeQuestion(int questionNumber, ChangeType type, std::string str)
@@ -112,10 +120,14 @@ void Admin::changeQuestion(int questionNumber, ChangeType type, std::vector<std:
 
 void Admin::createTest(std::string testName)
 {
+	if (TestRepository::getInstance() != nullptr)
+	{
+		this->saveTest();
+	}
 	TestRepository::getInstance()->setTest(new Test(testName));
 }
 
 void Admin::removeTest()
 {
-	delete TestRepository::getInstance()->getTest();
+	delete TestRepository::getInstance()->getTest();	//realisation (delete in db and testStatistic)
 }
