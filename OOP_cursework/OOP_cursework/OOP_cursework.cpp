@@ -10,6 +10,7 @@
 #include <time.h>
 #include <windows.h>
 #include "Student.h"
+#include "Noname.h"
 
 #include "TestStatistic.h"
 #include "StudentStatistic.h"
@@ -27,8 +28,11 @@ enum class UserType
 
 int main()
 {
-    Admin* admin = new Admin();
-	Student* student = new Student("Jhon");
+	Noname* noname = new Noname();
+	//std::cout << noname->registration("qwe", "pass1", "pass1");
+	//std::cout << noname->authentification("user1", "password1");
+
+	Admin* admin = new Admin();
 	TestStatistic* teststat = new TestStatistic();
 	StudentStatistic* studstat = new StudentStatistic();
 	StatisticRepository::getInstance()->setTestStatistic(teststat);
@@ -57,9 +61,27 @@ int main()
 	do
 	{
 		currUser = ConsoleManager::getInstance()->writeStartMenu();
+
 		if (currUser == 1)
 		{
+			std::string login;
+			int access = ConsoleManager::getInstance()->writeAccessMenu();
+			if (access == 1)
+			{
+				do
+				{
+					login = ConsoleManager::getInstance()->getLogin();
+				} while (!noname->registration(login, ConsoleManager::getInstance()->getPassword(2), ConsoleManager::getInstance()->getPassword(1)));
+			}
+			else if (access == 2)
+			{
+				do
+				{
+					login = ConsoleManager::getInstance()->getLogin();
+				} while (!noname->authentification(login, ConsoleManager::getInstance()->getPassword(1)));
+			}
 			int variant;
+			Student* student = new Student(login);
 			do
 			{
 				variant = ConsoleManager::getInstance()->writeStudentMenu();
@@ -79,11 +101,19 @@ int main()
 				{
 					student->getStudentStatistic();
 				}
+				else if (variant == 4)
+				{
+					delete student;
+				}
 			} while (variant != 5);
 		}
 		else if (currUser == 2)
 		{
 			int variant;
+			while (!noname->authentification("admin", ConsoleManager::getInstance()->getPassword(1)))
+			{
+
+			}
 			do
 			{
 				variant = ConsoleManager::getInstance()->writeAdminMenu();
@@ -245,7 +275,7 @@ int main()
 				}
 				else if (variant == 9)
 				{
-					admin->logout();
+					//delete admin;
 				}
 			} while (variant != 9);
 		}

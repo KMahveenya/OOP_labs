@@ -256,6 +256,19 @@ int ConsoleManager::writeStartMenu()
 	return a;
 }
 
+int ConsoleManager::writeAccessMenu()
+{
+	std::cout << "\n***---Menu---***\n";
+	std::cout << "1. Registration\n";
+	std::cout << "2. Authorisation\n";
+	std::cout << "\nYou choose: ";
+	const char* num = new char[100];
+	int a = this->inputInt(num, 1, 2);
+	//std::string str;
+	//std::getline(std::cin, str);
+	return a;
+}
+
 int ConsoleManager::writeChangeAsk()
 {
 	std::cout << "\nChoose type of choosing:\n1. Text of question\n2. Type of question\n3. Cost of question\n4. Answer of question\n5. Variants of question\n\nYou choose: \n";
@@ -298,4 +311,42 @@ int ConsoleManager::inputInt(const char* prompt, int m = INT_MIN, int M = INT_MA
 		std::cout << std::flush;
 	}
 	
+}
+
+void ConsoleManager::wrongLogin()
+{
+	std::cout << "\nThere is already a user with this login, try again\n";
+}
+
+void ConsoleManager::wrongNoLogin()
+{
+	std::cout << "\nThere is no user with this login, try again\n";
+}
+
+void ConsoleManager::wrongPassword()
+{
+	std::cout << "\nError in password, try again\n";
+}
+
+std::string ConsoleManager::getLogin()
+{
+	std::cout << "\nEnter your login\n";
+	std::string str;
+	std::getline(std::cin, str);
+	return str;
+}
+
+std::string ConsoleManager::getPassword(int num)
+{
+	if (num == 1)
+	{
+		std::cout << "\nEnter your password\n";
+	}
+	else if (num == 2)
+	{
+		std::cout << "\nRepeat your password\n";
+	}
+	std::string str;
+	std::getline(std::cin, str);
+	return str;
 }

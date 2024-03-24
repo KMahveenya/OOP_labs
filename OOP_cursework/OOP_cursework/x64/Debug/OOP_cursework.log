@@ -1,2 +1,10 @@
-﻿  ConsoleManager.cpp
+﻿  OOP_cursework.cpp
+C:\OOP\OOP_cursework\OOP_cursework\OOP_cursework.cpp(158,76): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\OOP\OOP_cursework\OOP_cursework\OOP_cursework.cpp(164,92): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\OOP\OOP_cursework\OOP_cursework\OOP_cursework.cpp(197,160): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\OOP\OOP_cursework\OOP_cursework\OOP_cursework.cpp(210,174): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\OOP\OOP_cursework\OOP_cursework\OOP_cursework.cpp(231,160): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\OOP\OOP_cursework\OOP_cursework\OOP_cursework.cpp(236,174): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\OOP\OOP_cursework\OOP_cursework\OOP_cursework.cpp(252,160): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\OOP\OOP_cursework\OOP_cursework\OOP_cursework.cpp(259,94): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
   OOP_cursework.vcxproj -> C:\OOP\OOP_cursework\x64\Debug\OOP_cursework.exe

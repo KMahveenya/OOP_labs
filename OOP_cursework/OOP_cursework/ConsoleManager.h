@@ -42,8 +42,15 @@ public:
 	int writeStudentMenu();
 	int writeAdminMenu();
 	int writeChangeAsk();
+	int writeAccessMenu();
 
 	void correct(bool);
+
+	void wrongLogin();
+	void wrongNoLogin();
+	void wrongPassword();
+	std::string getLogin();
+	std::string getPassword(int);
 
 	int inputInt(const char*, int, int);
 };

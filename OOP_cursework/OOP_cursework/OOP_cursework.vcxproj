@@ -132,8 +132,10 @@
     <ClCompile Include="IQuestion.cpp" />
     <ClCompile Include="MonoCloseQuestion.cpp" />
     <ClCompile Include="MultiCloseQuestion.cpp" />
+    <ClCompile Include="Noname.cpp" />
     <ClCompile Include="OOP_cursework.cpp" />
     <ClCompile Include="OpenQuestion.cpp" />
+    <ClCompile Include="sha256.cpp" />
     <ClCompile Include="StatisticRepository.cpp" />
     <ClCompile Include="Student.cpp" />
     <ClCompile Include="StudentStatistic.cpp" />
@@ -148,7 +150,9 @@
     <ClInclude Include="IQuestion.h" />
     <ClInclude Include="MonoCloseQuestion.h" />
     <ClInclude Include="MultiCloseQuestion.h" />
+    <ClInclude Include="Noname.h" />
     <ClInclude Include="OpenQuestion.h" />
+    <ClInclude Include="sha256.h" />
     <ClInclude Include="StatisticRepository.h" />
     <ClInclude Include="Student.h" />
     <ClInclude Include="StudentStatistic.h" />
